@@ -1,0 +1,5 @@
+- User is asked to input their age
+- if the user is 18 or above, they can watch any movie
+- between the ages of 15 and 17, they can movies rated up to 15
+- between 12 and 14, they can watch up to a rating of 12
+- users who are younger can only watch u rated movies
