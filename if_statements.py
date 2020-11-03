@@ -1,9 +1,11 @@
 
 age = int(input("What is your age: "))
 
-if age > 15:
-    print("You're old enough to watch this movie")
-elif age <= 15:
-    print("Sorry, you're not old enough to watch this movie. Please try another one")
+if age >= 18:
+    print("You're old enough to watch movies with any rating")
+elif 15 <= age < 18:
+    print("you can watch movies with an age rating uo to 15")
+elif 12 <= age < 15:
+    print("you can watch movies with an age rating uo to 12")
 else:
-    print("oops, something went wrong. Try again")
+    print("you can watch U rated movies")
